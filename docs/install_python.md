@@ -20,4 +20,7 @@
 6. `make`
 7. `make install`
 8. `echo "export PATH=\"/home/$USER/.localpython/bin:\$PATH\""`
-9. `ln -s /home/$USER/.localpython/bin/python3 /home/$USER/.localpython/bin/python`
+9. `ln -s /home/$USER/.localpython/bin/python3 /home/$USER/.localpython/bin/python` >> ~/.bashrc
+
+## Installing Poetry (Python package manager)
+1. `curl -sSL https://install.python-poetry.org | python3 -`
