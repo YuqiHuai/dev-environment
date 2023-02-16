@@ -10,6 +10,8 @@
 - `sudo update-alternatives --config python`
 - `sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1`
 - `sudo update-alternatives --config python3`
+- `sudo update-alternatives --set python /usr/bin/python3.11`
+- `sudo update-alternatives --set python3 /usr/bin/python3.11`
 
 ## Installing without SUDO
 1. `wget https://www.python.org/ftp/python/3.11.2/Python-3.11.2.tar.xz`
